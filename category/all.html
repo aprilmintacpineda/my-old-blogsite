@@ -1,0 +1,46 @@
+---
+layout: default
+page_title: All categories
+paginate: true
+paginate:
+  collection: posts
+  per_page: 10
+  limit: false
+  permalink: /:num/
+  title_suffix: " - page :num"
+---
+
+<div class="post-list-container limited-width">
+  {% for post in paginator.posts %}
+    <article class="post load-defaults">
+      <img src="/blog/public/post-resources/{{ post.cover_image }}">
+      <header>
+        <h1>{{ post.title }}</h1>
+        <p><strong>Date posted:</strong> {{ post.date_posted | date: '%B, %d, %Y' }}</p>
+        <p><strong>Category:</strong> {{ post.category }}</p>
+      </header>
+      <section>
+        <p>{{ post.description }}</p>
+        <p><a href="/blog{{ post.url }}">Read more</a></p>
+      </section>
+    </article>
+  {% endfor %}
+
+  <div class="pages">
+    {% for i in (1..paginator.total_pages) %}
+      {% if i == 1 %}
+        {% if i == paginator.page %}
+          <a class="onlink" href="/blog/category/all/">{{ i }}</a>
+        {% else %}
+          <a href="/blog/category/all/">{{ i }}</a>
+        {% endif %}
+      {% else %}
+        {% if i == paginator.page %}
+          <a class="onlink" href="/blog/category/all/{{ i }}">{{ i }}</a>
+        {% else %}
+          <a href="/blog/category/all/{{ i }}">{{ i }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

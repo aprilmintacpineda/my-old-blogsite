@@ -1,0 +1,57 @@
+.page-footer
+  background: #ffffff
+  padding: 15px
+  box-shadow: 0 0 5px #000000
+  .copy-right
+    text-align: center
+  section
+    +fitWidth
+    margin: 0 auto
+    margin-bottom: 15px
+    &:last-child
+      margin-bottom: 0
+    +clearFloat
+    section
+      margin: 0 30px 0 0
+      float: left
+    .about-me
+      width: 315px
+      h1
+        font-weight: normal
+      .header
+        position: relative
+        .profile-image
+          width: 80px
+          height: auto
+        .profile-description
+          position: absolute
+          left: 90px
+          +vCenter
+          p
+            color: gray
+            margin-bottom: 10px
+      div
+        margin-bottom: 5px
+        &:last-child
+          margin-bottom: 0
+    .connect
+      h1
+        font-weight: normal
+      ul li
+        list-style: none
+        margin-bottom: 5px
+        &:last-child
+          margin-bottom: 0
+        img
+          left: 10px
+        a, div
+          padding: 10px
+          padding-left: 35px !important
+          display: block
+        a
+          color: #0080ff
+          border-radius: 4px
+          text-decoration: none
+          &:hover
+            background: #0080ff
+            color: #ffffff

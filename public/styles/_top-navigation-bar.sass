@@ -1,0 +1,77 @@
+.top-navigation-bar
+  background: #ffffff
+  box-shadow: 0 0 5px #000000
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 1000
+  .top-navigation-bar-wrapper
+    max-width: 1200px
+    box-sizing: border-box
+    margin: 0 auto
+    padding: 15px
+    +clearFloat
+    h1
+      float: left
+      font-weight: normal
+      a
+        display: block
+        text-decoration: none
+        color: #0080ff
+    nav
+      float: right
+      .main-menu
+        +clearFloat
+        .dd-menu
+          display: none
+          background: #0080ff
+          position: absolute
+          left: 0
+          top: 100%
+          min-width: 100%
+          li
+            float: none
+            margin: 0
+            border-radius: 0px
+            color: #ffffff
+            &:hover
+              color: #0080ff
+              background: #ffffff
+              .count
+                background: #0080ff
+                color: #ffffff
+            a
+              color: inherit
+              display: block
+              position: relative
+              .count
+                position: absolute
+                right: 10px
+                border-radius: 50%
+                background: #ffffff
+                color: #0080ff
+                padding: 5px
+                font-size: 10px
+                +hCenter
+        li.with-dd-menu
+          border-radius: 4px 4px 0 0
+        li
+          border-radius: 4px
+          position: relative
+          list-style: none
+          margin-left: 10px
+          float: left
+          color: #0080ff
+          &:hover
+            background: #0080ff
+            color: #ffffff
+            .dd-menu
+              display: block
+          a
+            color: inherit
+            cursor: pointer
+            display: block
+            padding: 10px
+            font-weight: bold
+            text-decoration: none

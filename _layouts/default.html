@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.page_title }} {{ page.title_suffix }} - {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/blog/public/styles/app.css">
+  <meta name="robots" content="index,follow">
+  <meta property="og:image" content="/blog/public/images/my-photo.png">
+  <meta property="article:author" content="{{ site.author }}">
+
+  {% if page.post_title %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{{ page.post_title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="article:published_time" content="{{ page.date_posted | date_to_xmlschema }}">
+    <meta itemprop="keywords" content="{{ page.tags }}">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="keywords" content="{{ page.tags }}">
+    <meta name="url" content="{{ site.url }}{{ page.url }}">
+  {% else %}
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta itemprop="keywords" content="{{ site.keywords }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="url" content="{{ site.url }}">
+  {% endif %}
+</head>
+<body>
+  <header class="top-navigation-bar">
+     <div class="top-navigation-bar-wrapper">
+      <h1><a href="/blog/">Blog</a></h1>
+
+       <nav>
+        <ul class="main-menu">
+          <li><a href="{{ site.portfolio }}">My portfolio</a></li>
+          <li><a href="/blog/">Home</a></li>
+          <li class="with-dd-menu">
+            <a>Categories</a>
+            <ul class="dd-menu">
+              <li><a href="/blog/category/all">All <span class="count">{{ site.posts.size }}</a></li>
+              {% for category in site.category_list %}
+                <li><a href="/blog/category/{{ category }}">{{ category }} <span class="count">{{ site.categories[category].size }}</span></a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+       </nav>
+     </div>
+  </header>
+
+  <div class="content-container">
+    <div class="contents">
+      {{ content }}
+    </div>
+
+    <footer class="page-footer">
+      <section>
+        <section class="about-me">
+          <div class="header">
+            <img class="profile-image" src="/blog/public/images/my-photo.png">
+            <div class="profile-description">
+              <h1>April Mintac Pineda</h1>
+              <p>Developer and owner of this blog</p>
+              <div class="with-icon">
+                <img src="/blog/public/images/Flag-of-the-Philippines.png">
+                Philippines
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h1>Who I am, briefly.</h1>
+            <p>I really love to share my knowledge to interested people who are willing to hear me. I can literally spend half a day on a conversation to someone who loves to brainstorm and exchange thoughts and ideas about absolutely everything.</p>
+          </div>
+        </section>
+        <section class="connect">
+          <h1>Connect with me</h1>
+          <ul>
+            <li>
+              <a class="with-icon" href="https://github.com/aprilmintacpineda" target="_new" title="Opens in new tab">
+                <img src="/blog/public/images/GitHub-Mark-32px.png">
+                GitHub/aprilmintacpineda
+              </a>
+            </li>
+            <li>
+              <a class="with-icon" href="https://www.linkedin.com/in/aprilmintacpineda" target="_new" title="Opens in new tab">
+                <img src="/blog/public/images/In-2C-34px-R.png">
+                LinkedIn/aprilmintacpineda
+              </a>
+            </li>
+            <li>
+              <div class="with-icon">
+                <img src="/blog/public/images/logo_gmail_32px.png">
+                aprilmintacpineda
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="copy-right">
+        &copy; April Mintac Pineda
+      </section>
+    </footer>
+  </div>
+</body>
+</html>
