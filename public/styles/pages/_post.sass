@@ -59,7 +59,12 @@
     img
       width: 100%
       height: auto
+      display: block
     .post-information
+      @media all and (max-width: $mobile-wide)
+        position: relative
+        top: auto
+        left: auto
       background: rgba(0, 0, 0, 0.8)
       padding: 5%
       color: #ffffff
