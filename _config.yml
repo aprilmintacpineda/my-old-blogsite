@@ -27,6 +27,10 @@ permalink: pretty
 author: April Mintac Pineda
 keywords: blog, learn, read.
 
+collections:
+  policies:
+    output: true
+
 # Build settings
 sass:
   sass_dir: ./public/styles
