@@ -1,2 +1,0 @@
-Windows Malicious Software Removal Tool - https://www.microsoft.com/en-us/download/malicious-software-removal-tool-details.aspx
-Autoruns for windows - https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns

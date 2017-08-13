@@ -11,6 +11,7 @@
     box-sizing: border-box
     margin: 0 auto
     padding: 15px
+    position: relative
     +clearFloat
     h1
       float: left
@@ -20,16 +21,38 @@
         text-decoration: none
         color: #0080ff
     nav
+      @media all and (max-width: $mobile_small)
+        display: none
+        float: none
+        position: absolute
+        top: 100%
+        left: 0
+        background: #ffffff
+        border: 1px solid #bfbfbf
+        +fitWidth
+        &:after
+          display: block
+          position: absolute
+          content: ''
+          border-left: 15px solid transparent
+          border-right: 15px solid transparent
+          border-bottom: 15px solid #bfbfbf
+          top: -15px
+          left: 17px
       float: right
       .main-menu
         +clearFloat
         .dd-menu
+          @media all and (max-width: $mobile_small)
+            left: 100%
+            top: 0
+            border: 1px solid #ffffff
+            +fitWidth
           display: none
           background: #0080ff
           position: absolute
           left: 0
           top: 100%
-          min-width: 100%
           li
             float: none
             margin: 0
@@ -42,6 +65,7 @@
                 background: #0080ff
                 color: #ffffff
             a
+              padding-right: 35px
               color: inherit
               display: block
               position: relative
@@ -57,6 +81,9 @@
         li.with-dd-menu
           border-radius: 4px 4px 0 0
         li
+          @media all and (max-width: $mobile_small)
+            float: none
+            margin: 0
           border-radius: 4px
           position: relative
           list-style: none
@@ -75,3 +102,22 @@
             padding: 10px
             font-weight: bold
             text-decoration: none
+    .burger
+      @media all and (max-width: $mobile_small)
+        display: block
+      display: none
+      position: absolute
+      right: 15px
+      +vCenter
+      span
+        display: block
+        padding: 3px
+        background: #0080ff
+        margin-bottom: 5px
+        width: 30px
+        &:last-child
+          margin-bottom: 0
+    #toggle-nav
+      display: none
+    #toggle-nav:checked ~ nav
+      display: block

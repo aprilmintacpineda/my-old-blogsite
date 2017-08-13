@@ -1,0 +1,88 @@
+.post-container
+  box-sizing: border-box
+  padding: 5%
+  width: 100%
+  .content-wrapper
+    +clearFloat
+    background: #ffffff
+  .related-articles
+    @media all and (max-width: $mobile-wide)
+      float: none
+      width: 100%
+    float: left
+    width: 35%
+    padding: 15px
+    box-sizing: border-box
+  .wrapper
+    box-shadow: 0 0 5px #000000
+    border-radius: 4px
+  .related-articles
+    h1.title
+      margin-bottom: 15px
+      color: gray
+    article
+      margin-bottom: 15px
+      border-bottom: 1px solid #cccccc
+      padding-bottom: 15px
+      &:last-child
+        margin-bottom: 0
+        border-bottom: 0
+        padding-bottom: 0
+      section
+        div
+          margin-bottom: 5px
+          &:last-child
+            margin-bottom: 0
+        h1
+          font-size: 20px
+          font-weight: normal
+        .tags
+          span
+            color: gray
+      header
+        img
+          width: 100%
+          height: auto
+          display: block
+          border: 1px solid #bfbfbf
+  .article-content
+    @media all and (max-width: $mobile-wide)
+      float: none
+      width: 100%
+    padding: 15px
+    float: left
+    width: 65%
+    box-sizing: border-box
+  .article-header
+    display: block
+    position: relative
+    img
+      width: 100%
+      height: auto
+    .post-information
+      background: rgba(0, 0, 0, 0.8)
+      padding: 5%
+      color: #ffffff
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      box-sizing: border-box
+      h1
+        font-weight: normal
+        font-size: 40px
+      .tags
+        +clearFloat
+        p
+          float: left
+          margin-right: 3px
+          padding: 5px 0
+        span
+          float: left
+          padding: 5px
+          display: block
+          margin-right: 5px
+          margin-bottom: 5px
+          border-radius: 4px
+          background: #ffffff
+          color: #000

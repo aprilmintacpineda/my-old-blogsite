@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ page.page_title }} {{ page.title_suffix }} - {{ site.title }}</title>
+  {% if page.post_title %}
+    <title>{{ page.post_title }} - {{ site.title }}</title>
+  {% else %}
+    <title>{{ page.page_title }} - {{ site.title }}</title>
+  {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/blog/public/styles/app.css">
   <meta name="robots" content="index,follow">
@@ -36,7 +40,17 @@
      <div class="top-navigation-bar-wrapper">
       <h1><a href="/blog/">Blog</a></h1>
 
-       <nav>
+      <div class="burger">
+        <label for="toggle-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <input id="toggle-nav" type="checkbox">
+
+      <nav>
         <ul class="main-menu">
           <li><a href="{{ site.portfolio }}">My portfolio</a></li>
           <li><a href="/blog/">Home</a></li>

@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: aprilmintacpineda.github.io/blog
 email: aprilmintacpineda@gmail.com
-description: Read and learn about a lot of things in various kinds of topics!
+description: Inspiring and useful contents available for everyone, anytime, anywhere.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: https://aprilmintacpineda.github.io/blog
 portfolio: https://aprilmintacpineda.github.io/
@@ -42,7 +42,7 @@ kramdown:
 plugins:
   # - jekyll-feed
   # - jekyll-minifier
-  - octopress-paginate
+  # - octopress-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
