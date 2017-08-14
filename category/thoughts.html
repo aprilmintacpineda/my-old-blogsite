@@ -1,0 +1,22 @@
+---
+layout: default
+page_title: thoughts
+---
+
+<div class="post-list-container limited-width">
+  {% for post in site.categories["thoughts"] %}
+    <article class="post load-defaults">
+      <img src="/blog/public/post-resources/{{ post.cover_image }}">
+      <header>
+        <h1>{{ post.post_title }}</h1>
+        <p><strong>Date posted:</strong> {{ post.date_posted | date: '%B, %d, %Y' }}</p>
+        <p><strong>Category:</strong> {{ post.category }}</p>
+        <p><strong>Tags:</strong> {{ post.tags | array_to_sentence_string }}</p>
+      </header>
+      <section>
+        <p>{{ post.description }}</p>
+        <p><a href="/blog{{ post.url }}">Read more</a></p>
+      </section>
+    </article>
+  {% endfor %}
+</div>
