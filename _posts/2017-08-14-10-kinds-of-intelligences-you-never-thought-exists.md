@@ -11,7 +11,7 @@ tags:
   - self-awareness
 ---
 
-> Person A is a good singer, he competes on different singing competitions and even manages to win on some of them, but he does not do well at school and his grades are low. Is Person A intelligent or not?
+> Person A is a good singer, he competes in different singing competitions and even manages to win in some of them, but he does not do well at school and his grades are low. Is Person A intelligent or not?
 
 This is the bad thing about people these days, they don't even know what constitutes to **intelligence**. Why is it that you are intelligent when you are good at solving mathematical problems but not when you are good at singing, dancing, or crafting stuff?
 
