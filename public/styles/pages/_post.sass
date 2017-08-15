@@ -5,6 +5,9 @@
   .content-wrapper
     +clearFloat
     background: #ffffff
+  .wrapper
+    box-shadow: 0 0 5px #000000
+    border-radius: 4px
   .related-articles
     @media all and (max-width: $mobile-wide)
       float: none
@@ -13,10 +16,16 @@
     width: 35%
     padding: 15px
     box-sizing: border-box
-  .wrapper
-    box-shadow: 0 0 5px #000000
-    border-radius: 4px
-  .related-articles
+    hr
+      margin-top: 15px
+      margin-bottom: 15px
+    .ads
+      .ad
+        margin-bottom: 15px
+      img
+        width: 100%
+        height: auto
+        display: block
     h1.title
       margin-bottom: 15px
       color: gray
@@ -81,16 +90,9 @@
       height: auto
       display: block
     .post-information
-      @media all and (max-width: $mobile-wide)
-        position: relative
-        top: auto
-        left: auto
-      background: rgba(0, 0, 0, 0.8)
+      background: #001a33
       padding: 5%
       color: #ffffff
-      position: absolute
-      bottom: 0
-      left: 0
       width: 100%
       box-sizing: border-box
       h1

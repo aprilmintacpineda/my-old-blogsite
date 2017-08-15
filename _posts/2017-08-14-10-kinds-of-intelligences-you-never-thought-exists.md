@@ -1,6 +1,6 @@
 ---
 layout: post
-post_title: 10 kinds of intelligences you never thought exists
+post_title: 10 kinds of intelligences you never thought exists.
 description: Person A is a good singer, he competes in different singing competitions and even manages to win in some of them, but he does not do well at school and his grades are low. Is Person A intelligent or not?
 date_posted: 2017-08-14
 cover_image: 2017-08-14-10-kinds-of-intelligences-you-never-thought-exists/cover_image.jpg
