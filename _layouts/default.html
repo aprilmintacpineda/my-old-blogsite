@@ -12,17 +12,28 @@
   <meta property="article:author" content="{{ site.author }}">
 
   {% if page.post_title %}
+    {% assign key_words = "" %}
+    {% assign counter = 1 %}
+
+    {% for tag in page.tags %}
+      {% assign key_words = key_words | append: tag %}
+      {% if counter != page.tags.size %}
+        {% assign counter = counter | plus: 1 %}
+        {% assign key_words = key_words | append: ", " %}
+      {% endif %}
+    {% endfor %}
+
     <meta property="og:image" content="{{ site.url }}/public/post-resources/{{ page.cover_image }}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:title" content="{{ page.post_title }}">
     <meta property="og:type" content="article">
     <meta property="og:description" content="{{ page.description }}">
     <meta property="article:published_time" content="{{ page.date_posted | date_to_xmlschema }}">
-    <meta itemprop="keywords" content="{{ page.tags }}">
+    <meta itemprop="keywords" content="{{ key_words }}">
     <meta name="image" content="{{ site.url }}/public/post-resources/{{ page.cover_image }}">
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="{{ site.author }}">
-    <meta name="keywords" content="{{ page.tags }}">
+    <meta name="keywords" content="{{ key_words }}">
     <meta name="url" content="{{ site.url }}{{ page.url }}">
   {% else %}
     <meta property="og:image" content="{{ site.url }}/blog/public/images/my-photo.png">
