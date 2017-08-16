@@ -31,41 +31,41 @@ Hostinger team created **000webhost** as an **educational platform** for learner
 [Go to their website](https://www.000webhost.com/996779.html){:target="
 _blank"} and create an account, you will need an active email for this. After registration they will send you an email with a link to verify your email.
 
-![000webhost website](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/sign-up.png)
+![000webhost website](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/sign-up.png)
 
-![sign up form](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/sign-up-form.png)
+![sign up form](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/sign-up-form.png)
 
 After registration, you will be automatically logged in and redirected to a page where all your websites are listed. If you scroll down you will see that you already have one website up that is **your-email.000webhostapp.com**. The status could be pending if you have not verified your email yet, but you can totally visit the site now. If you do, you will simply see a message from 000webhost, this is because the site is empty as of the moment, that means it does not have any files in it.
 
-![website list page](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/sign-up-form.png)
+![website list page](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/sign-up-form.png)
 
 If you click on it or the **manage website button**, you will be taken to a page where you will see the statistics of the website.
 
-![stats page](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/stats.png)
+![stats page](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/stats.png)
 
 # Uploading files
 
 If you have verified your email, the only thing that's left is to upload your website's files and folders. On the top most part of the page, click on the **File Manager**.
 
-![file-manager-button](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/file-manager-button.png)
+![file-manager-button](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/file-manager-button.png)
 
 Scroll down a bit and click on **upload files now**, a new tab will open, just wait for the file manager to open.
 
-![upload-files-now](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/upload-files-now.png)
+![upload-files-now](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/upload-files-now.png)
 
 The file manager looks like image below. By default there is only one file.
 
-![file-manager](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/file-manager.png)
+![file-manager](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/file-manager.png)
 
 On the top right of the page click on the upload button and select all the files that you want to upload. If your files are in a folder, you will not be able to upload them through this process, we will discuss that later. On my desktop I have a file called **index.html** I will upload that file. I recommend you create a file called **index.html** and upload that too so you can follow along.
 
-![upload-button](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/upload-button.png)
+![upload-button](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/upload-button.png)
 
-![select-files](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/select-files.png)
+![select-files](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/select-files.png)
 
-![select-files](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/select-file-to-upload.png)
+![select-files](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/select-file-to-upload.png)
 
-![upload-files](/blog/public/post-resources/2017-08-15-deploy-your-site-with-000webhost-for-free/upload-files.png)
+![upload-files](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/upload-files.png)
 
 Once you have done that, you will now see the file you uploaded and you can visit your site now and view that page you uploaded.
 
