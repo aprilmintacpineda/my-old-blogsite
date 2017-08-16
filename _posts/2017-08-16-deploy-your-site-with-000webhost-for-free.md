@@ -73,7 +73,13 @@ Once you have done that, you will now see the file you uploaded and you can visi
 
 I created a separate post for this. Please read the [Upload your site to 000webhost using FileZilla](/blog/how-tos/2017/08/16/upload-your-site-to-000webhost-using-filezilla/).
 
-That's it for this post.
+# Remove branding
+
+If you see a banner on your website that says something like **powered by 000webhost**, you can remove this by going to your **Settings > General > Show 000webhost branding**, make sure this is **turned off**.
+
+![upload-files](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/general-settings.png)
+
+![upload-files](/blog/public/post-resources/2017-08-16-deploy-your-site-with-000webhost-for-free/turn-off-branding.png)
 
 * * *
 
