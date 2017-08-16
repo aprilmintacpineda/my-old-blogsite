@@ -10,6 +10,9 @@ page_title: All categories
       <header>
         <h1>{{ post.post_title }}</h1>
         <p><strong>Date posted:</strong> {{ post.date_posted | date: '%B, %d, %Y' }}</p>
+        {% if post.last_updated %}
+          <p><strong>Last updated:</strong> {{ post.last_updated | date: '%B, %d, %Y' }}</p>
+        {% endif %}
         <p><strong>Category:</strong> {{ post.category }}</p>
         <p><strong>Tags:</strong> {{ post.tags | array_to_sentence_string }}</p>
       </header>

@@ -13,6 +13,9 @@ layout: default
       <div class="post-information">
         <h1>{{ page.post_title }}</h1>
         <div>Date posted: {{ page.date_posted | date: '%B %d, %Y' }}</div>
+        {% if page.last_updated %}
+        <div>Last updated: {{ page.last_updated | date: '%B %d, %Y' }}</div>
+        {% endif %}
         <div>Category: {{ page.category }}</div>
         <br>
         <div>{{ page.description }}</div>
