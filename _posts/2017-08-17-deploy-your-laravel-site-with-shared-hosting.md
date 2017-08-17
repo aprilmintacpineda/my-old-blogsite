@@ -60,7 +60,7 @@ I simply called the destination folder **test-site**
 
 ![Extract the zip](/blog/public/post-resources/2017-08-17-deploy-your-laravel-site-with-shared-hosting/extract-the-zip-1.png)
 
-Now all my files have been extracted to the folder **test-site**, all I have to do now is to **move them**. Open the folder where you extracted all your files. Highlight all your files:
+Now all my files have been extracted to the folder **test-site**, all I have to do now is **move them**. Open the folder where you extracted all your files. Highlight all your files:
 
 - Click the first file.
 - Click the last file while holding down the **shift** button.
@@ -72,13 +72,13 @@ Highlighting files on the file manager works exactly the same way with with wind
 - Change the destination to `/public_html`.
 - Click **Move**.
 
-Now all the files have been moved and the **test-site folder** where we put the files during extraction is now empty. So I delete the **test-site folder** and the zip file because I no longer need those.
+All the files have been moved and the **test-site folder** where we put the files during extraction is now empty. So I deleted the **test-site folder** and the zip file because I no longer need those.
 
 ![Move the files](/blog/public/post-resources/2017-08-17-deploy-your-laravel-site-with-shared-hosting/move-the-files.png)
 
 ![Move the files](/blog/public/post-resources/2017-08-17-deploy-your-laravel-site-with-shared-hosting/move-the-files-1.png)
 
-If you open the website's homepage, i.e. **the-site.000webhostapp.com/**, you will see a that looks somewhat like this:
+If you open the website's homepage, i.e. **the-site.000webhostapp.com/**, you will see a page that looks somewhat like this:
 
 ![The site after upload](/blog/public/post-resources/2017-08-17-deploy-your-laravel-site-with-shared-hosting/the-site-after-upload.png)
 
