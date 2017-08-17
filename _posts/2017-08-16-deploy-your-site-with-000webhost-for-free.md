@@ -13,7 +13,7 @@ tags:
   - 000webhost
   - free web hosting
   - web hosting
-  - share hosting
+  - shared hosting
 ---
 
 There are times when you want to deploy your web app project online maybe just to test it out or show it to someone, in this case, free hosting should be good enough.

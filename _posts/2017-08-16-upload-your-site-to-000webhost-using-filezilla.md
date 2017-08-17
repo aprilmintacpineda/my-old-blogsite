@@ -13,7 +13,7 @@ tags:
   - 000webhost
   - free web hosting
   - web hosting
-  - share hosting
+  - shared hosting
   - FileZilla
 ---
 

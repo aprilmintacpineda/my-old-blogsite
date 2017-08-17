@@ -13,7 +13,8 @@ tags:
   - 000webhost
   - free web hosting
   - web hosting
-  - share hosting
+  - shared hosting
+  - laravel 5.4
 ---
 
 Please take note of the date this was last updated vs the date you are reading this.
