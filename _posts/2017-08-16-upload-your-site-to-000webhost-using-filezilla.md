@@ -13,6 +13,8 @@ tags:
   - 000webhost
   - free web hosting
   - web hosting
+  - share hosting
+  - FileZilla
 ---
 
 # Uploading an entire project to 000webhost
