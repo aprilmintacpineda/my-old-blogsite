@@ -192,6 +192,6 @@ Jewish historian [Flavius Josephus](https://www.google.com.ph/search?q=Flavius+J
 - [Annals of Cornelius Tacitus](http://www.sacred-texts.com/cla/tac/index.htm)
 - [Antiquities of the Jew By Flavius Josephus](http://sacred-texts.com/jud/josephus/)
 
-# Don't take my words for it
+# Don't take my words for it...
 
 My answer is based on a perspective of a human being. God lives in a different realm, a realm where **evil** and **not evil** may mean something else or may change according to the situation. God's perspective will be different from that of a human.
