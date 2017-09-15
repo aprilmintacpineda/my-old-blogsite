@@ -73,7 +73,7 @@
             <ul class="dd-menu">
               <li><a href="/blog/category/all">All <span class="count">{{ site.posts.size }}</a></li>
               {% for category in site.category_list %}
-                <li><a href="/blog/category/{{ category }}">{{ category }} <span class="count">{{ site.categories[category].size }}</span></a></li>
+                <li><a href="/blog/category/{{ category | downcase }}">{{ category }} <span class="count">{{ site.categories[category].size }}</span></a></li>
               {% endfor %}
             </ul>
           </li>
