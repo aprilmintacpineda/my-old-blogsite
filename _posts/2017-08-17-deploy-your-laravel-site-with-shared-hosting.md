@@ -5,7 +5,7 @@ description: Looking to deploy your laravel powered site on shared hosting? This
 date_posted: 2017-08-17
 last_updated: 2017-08-17
 cover_image: 2017-08-17-deploy-your-laravel-site-with-shared-hosting/cover_image.jpg
-category: how-tos
+category: How-Tos
 tags:
   - web app deployment
   - web app development

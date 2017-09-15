@@ -4,9 +4,9 @@ post_title: 10 kinds of intelligences you never thought exists.
 description: Person A is a good singer, he competes in different singing competitions and even manages to win in some of them, but he does not do well at school and his grades are low. Is Person A intelligent or not?
 date_posted: 2017-08-14
 cover_image: 2017-08-14-10-kinds-of-intelligences-you-never-thought-exists/cover_image.jpg
-category: thoughts
+category: Thoughts
 tags:
-  - psychology
+  - Psychology
   - intelligence
   - self-awareness
 ---
@@ -95,7 +95,7 @@ So the answer to the question on the top is **yes**. **Person A** accomplished w
 
 This post was inspired by**Frames of Mind: The Theory of Multiple Intelligences** by **Howard Gardner**.
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/oY2C4YgXm7I" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/oY2C4YgXm7I" frameborder="0" allowfullscreen></iframe>
 
 * * *
 

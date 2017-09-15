@@ -5,7 +5,7 @@ description: Managing your files with the built-in file manager offered by 000we
 date_posted: 2017-08-16
 last_updated: 2017-08-16
 cover_image: 2017-08-16-upload-your-site-to-000webhost-using-filezilla/cover_image.png
-category: how-tos
+category: How-Tos
 tags:
   - web app deployment
   - web app development

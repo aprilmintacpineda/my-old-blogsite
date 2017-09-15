@@ -5,7 +5,7 @@ description: Free hosting can really be very useful especially when you are test
 date_posted: 2017-08-16
 last_updated: 2017-08-16
 cover_image: 2017-08-16-deploy-your-site-with-000webhost-for-free/cover_image.png
-category: how-tos
+category: How-Tos
 tags:
   - web app deployment
   - web app development
