@@ -194,4 +194,4 @@ Jewish historian [Flavius Josephus](https://www.google.com.ph/search?q=Flavius+J
 
 # Don't take my words for it
 
-My answer is based on a perspective of a human being. God lives on a different realm, a realm where **evil** and **not evil** may mean something else or may change according to the situation. God's perspective will be different from that of a human.
+My answer is based on a perspective of a human being. God lives in a different realm, a realm where **evil** and **not evil** may mean something else or may change according to the situation. God's perspective will be different from that of a human.
